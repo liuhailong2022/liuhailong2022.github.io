@@ -323,7 +323,7 @@
       <section id="contact" class="contact-section">
         <h2>Get in touch with me</h2>
         <div class="contact-form-container">
-          <form class="contact-form" action="" method="">
+          <form class="contact-form" action="demo/index.php" method="post">
             <label for="name"
               >Name<input
                 type="text"
@@ -336,7 +336,8 @@
               >Email<input
                 type="email"
                 id="email"
-                name="name"
+                name="email"
+                pattern="^[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$"
                 placeholder="Enter your email"
                 required
             /></label>
@@ -368,6 +369,7 @@
         "This is a just a fake portfolio. All of information given are not
         real."
       </p>
+      <a href="./docs/html_personal_project.pdf"><input type="button" class="download" value="DOWNLOAD CV"></a>
     </footer>
   </body>
 </html>

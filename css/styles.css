@@ -329,11 +329,23 @@ footer {
 }
 
 footer > p {
+  display: block;
   margin: 2rem;
 }
 
 footer i {
   vertical-align: middle;
+}
+
+.download {
+  display: block;
+  background: var(--main-red);
+  color: var(--main-white);
+  /* width: 30%; */
+  /* height: 2.5em; */
+  /* font-size: 2rem; */
+  margin: 1.25em auto;
+  transition: 0.3s ease-out;
 }
 
 @media (max-width: 28.75em) {
